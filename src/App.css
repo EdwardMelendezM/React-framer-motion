@@ -1,4 +1,5 @@
 body {
+
   width: 100vw;
   height: 100vh;
   background: linear-gradient(180deg, #ff008c 0%, rgb(211, 9, 225) 100%);
@@ -39,4 +40,13 @@ body {
   height: 250px;
   border: 1px solid #ff008c10;
   border-radius: 25px;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 30px;
+  flex-direction: column;
 }

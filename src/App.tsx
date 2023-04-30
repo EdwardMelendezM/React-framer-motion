@@ -1,11 +1,20 @@
 import "./App.css"
-import { motion } from "framer-motion";
+import { Box } from "./components/Box";
+import BoxAnimation from "./components/BoxAnimation";
+import Drag from "./components/Drag";
 const App = () => {
   return (
-    <div>
+    <div className="container">
       <div className="motiondiv">
+        <Box />
       </div>
-    </div>
+      <div className="motiondiv">
+        <Drag />
+      </div>
+      <div className="motiondiv">
+        <BoxAnimation />
+      </div>
+    </div >
   );
 }
 
